@@ -14,10 +14,10 @@
     width: 24rem;
     box-shadow: $box-shadow-inset-md;
     background-image: url("./day-overlay.png"),
-      url("/sun.png"),
-      url("/foreground.png"),
-      url("/sky-wide.webp"),
-      url("/moon.png");
+      url("./sun.png"),
+      url("./foreground.png"),
+      url("./sky-wide.png"),
+      url("./moon.png");
     background-size: cover, 150%, cover, cover, 200%;
     // background-position: center, 500% 20%, 50% 85%, 100% 50%, 50% 50%;
     // background-blend-mode: color-burn, screen, normal, overlay, normal;
