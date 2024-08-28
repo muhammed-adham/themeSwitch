@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className="astronaut">
-        <img src="./src/assets/images/ARTIST-PP.jpg" alt="" />
+        <img src="./artist-pp.jpg" alt="" />
       </div>
       <div className="container home-page">
         <div

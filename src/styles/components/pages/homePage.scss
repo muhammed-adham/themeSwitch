@@ -13,11 +13,11 @@
     height: 12rem;
     width: 24rem;
     box-shadow: $box-shadow-inset-md;
-    background-image: url("../src/assets/images/theme-background/day-overlay.png"),
-      url("../src/assets/images/theme-background/sun.png"),
-      url("../src/assets/images/theme-background/foreground.png"),
-      url("../src/assets/images/theme-background/sky-wide.png"),
-      url("../src/assets/images/theme-background/moon.png");
+    background-image: url("./theme-background/day-overlay.png"),
+      url("./theme-background/sun.png"),
+      url("./theme-background/foreground.png"),
+      url("./theme-background/sky-wide.png"),
+      url("./theme-background/moon.png");
     background-size: cover, 150%, cover, cover, 200%;
     // background-position: center, 500% 20%, 50% 85%, 100% 50%, 50% 50%;
     // background-blend-mode: color-burn, screen, normal, overlay, normal;
