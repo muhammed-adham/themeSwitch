@@ -1,0 +1,40 @@
+@import "./fonts/fonts.scss";
+
+// Base colors
+$white-color: #fff;
+$black-color: #000;
+
+// Alert Colors
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+
+// Typography
+$font-family: "Raleway", sans-serif;
+$font-size-base: 16px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+$line-height-base: 1.5;
+$font-weight-thin: 100;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+$spacing-xl: 3rem;
+
+// Border
+$border-radius-sm: 0.25rem;
+$border-radius-md: 0.5rem;
+$border-radius-lg: 1.5rem;
+$border-radius-xlg: 2.5rem;
+
+// Shadows
+$box-shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.15);
+$box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.25);
+$box-shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.4);
+$box-shadow-inset-md: inset 0 0 6px 4px rgba(0, 0, 0, 0.25);

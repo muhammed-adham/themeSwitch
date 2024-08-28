@@ -1,0 +1,55 @@
+// // Light Theme Variables
+$background-color: #f0f0f0;
+$heading-color: #222;
+$text-color: #666;
+
+// // Dark Theme Variables
+$dark-background-color: #222;
+$dark-heading-color: #f0f0f0;
+$dark-text-color: #999;
+
+[data-theme="dark"] {
+  & {
+    background-color: $dark-background-color;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $dark-heading-color;
+    }
+    p {
+      color: $dark-text-color;
+    }
+
+    & {
+      --primary-color: #007bff;
+      --secondary-color: #389cb7;
+      --light-color: #999;
+      --dark-color: #1a1a1a;
+    }
+  }
+}
+
+[data-theme="light"] {
+  background-color: $background-color;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $heading-color;
+  }
+  P {
+    color: $text-color;
+  }
+
+  & {
+    --primary-color: #000090;
+    --secondary-color: #006cdb;
+    --light-color: #ddd;
+    --dark-color: #333;
+  }
+}
